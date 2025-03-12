@@ -80,22 +80,31 @@ export default function Recipe() {
                     <li className="grid grid-cols-1 gap-6">
                         <h2 className="text-recipe-brown font-youngSerif text-[28px] leading-none">Nutrition</h2>
                         <p className="font-outfit text-base">The table below shows nutritional values per serving without the additional fillings.</p>
-                        <ul className="font-outfit text-base grid grid-cols-1 gap-6 divide-y">
-                            <li className="flex px-8 gap-4">
-                                <p className="basis-1/2">Calories</p>
-                                <p className="basis-1/2 text-recipe-brown font-bold">277kcal</p>
+                        <ul className="font-outfit text-base grid grid-cols-1 space-y-3">
+                            <li className="grid grid-cols-2 px-8 gap-4">
+                                <p>Calories</p>
+                                <p className="text-recipe-brown font-bold">277kcal</p>
                             </li>
-                            <li className="flex px-8 gap-4">
-                                <p className="basis-1/2">Carbs</p>
-                                <p className="basis-1/2 text-recipe-brown font-bold">0g</p>
+                            <li>
+                                <hr />
                             </li>
-                            <li className="flex px-8 gap-4">
-                                <p className="basis-1/2">Protein</p>
-                                <p className="basis-1/2 text-recipe-brown font-bold">20g</p>
+                            <li className="grid grid-cols-2 px-8 gap-4">
+                                <p>Carbs</p>
+                                <p className="text-recipe-brown font-bold">0g</p>
                             </li>
-                            <li className="flex px-8 gap-4">
-                                <p className="basis-1/2">Fat</p>
-                                <p className="basis-1/2 text-recipe-brown font-bold">22g</p>
+                            <li>
+                                <hr />
+                            </li>
+                            <li className="grid grid-cols-2 px-8 gap-4">
+                                <p>Protein</p>
+                                <p className="text-recipe-brown font-bold">20g</p>
+                            </li>
+                            <li>
+                                <hr />
+                            </li>
+                            <li className="grid grid-cols-2 px-8 gap-4">
+                                <p>Fat</p>
+                                <p className="text-recipe-brown font-bold">22g</p>
                             </li>
                         </ul>
                     </li>
